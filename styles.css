@@ -1,0 +1,65 @@
+/* Center the form and give it a card-like appearance */
+form {
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 32px 24px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+/* Style the heading */
+h1 {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  font-weight: 600;
+  color: #22223b;
+}
+
+/* Style input fields */
+.name-field,
+.email-field,
+.message-field {
+  display: block;
+  width: 100%;
+  margin-bottom: 18px;
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #fff;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+}
+
+.name-field:focus,
+.email-field:focus,
+.message-field:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Style the textarea to be taller */
+.message-field {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Style the submit button */
+form button[type="submit"] {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  width: 100%;
+  margin-top: 8px;
+}
+
+form button[type="submit"]:hover {
+  background: #0056b3;
+}
