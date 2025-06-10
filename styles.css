@@ -69,10 +69,10 @@ form button[type="submit"]:hover {
   transition: 0.3s;
   border-radius: 5px;
   display: flex;
-  justify-content: left;
+  padding: 10px;
 }
 
 
 .experience {
-  padding: 2px 16px;
+  padding: 10px;
 }
