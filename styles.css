@@ -63,3 +63,16 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
   background: #0056b3;
 }
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  display: flex;
+  justify-content: left;
+}
+
+
+.experience {
+  padding: 2px 16px;
+}
