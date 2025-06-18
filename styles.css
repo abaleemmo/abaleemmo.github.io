@@ -76,3 +76,8 @@ form button[type="submit"]:hover {
 .experience {
   padding: 10px;
 }
+
+#sig-merits-pic{
+  height: 200px;
+  width: auto;
+}
