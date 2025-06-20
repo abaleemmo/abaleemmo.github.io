@@ -81,3 +81,32 @@ form button[type="submit"]:hover {
   height: 200px;
   width: auto;
 }
+
+.progress-bar.bg-actual {
+  background: #b445f5;
+  border-radius: 0;
+}
+
+.progress-bar.bg-projected {
+  background: blue;
+  position: relative;
+}
+.progress-bar.bg-projected:before {
+  width: 30px;
+  height: 30px;
+  border-radius:0 500px 500px 0;
+  background-color: #b445f5;    
+  display: inline-block;
+  vertical-align: middle;
+  content: '';
+}
+
+.progress-bar {
+  border-radius: 0 500px 500px 0;
+}
+
+
+.progress {
+  border-radius: 500px !important;
+  height: 30px !important;
+}
