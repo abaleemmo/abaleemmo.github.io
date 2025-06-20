@@ -1,5 +1,5 @@
 const data = {
-    actual: 1000,
+    actual: 1155,
   projected: 1573,
   limits: [500, 1000, 2500]
 };
