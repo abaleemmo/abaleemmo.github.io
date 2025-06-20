@@ -1,0 +1,52 @@
+<!-- New Page -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Home | Abdul-Aleem Mohammed Portfolio</title>
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+  <script defer src = "script.js"></script>
+</head>
+
+<body>
+  <h1>New Index Page</h1>
+
+  
+</body>
+
+</html>
+
+<!-- Test Score  -->
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+<div class="container pt-4">
+  <p class="test-title">United States History</p>
+  <p class="all-test-takers-score">Average of All Test Takers</p>
+  <p class="my-score">My Score</p> 
+  <br>
+  <div class="row">
+    <div class="col">
+      <div class="progress">
+        <div id="actual-progress" class="progress-bar bg-actual"></div>
+        <div id="projected-progress" class="progress-bar bg-projected"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- js -->
+  const data = {
+    actual: 1269,
+  projected: 2000,
+  limits: [500, 1000, 2500]
+};
+
+const actualProgress = document.getElementById("actual-progress");
+const projectedProgress = document.getElementById("projected-progress");
+
+const barLength = Math.max(...data.limits);
+const actualPercentage = (data.actual / barLength) * 100;
+const projectedPercentage = ((data.projected - data.actual) / barLength) * 100;
+
+actualProgress.style.width = `${actualPercentage}%`;
+projectedProgress.style.width = `${projectedPercentage}%`;

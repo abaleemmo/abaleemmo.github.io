@@ -26,3 +26,21 @@
   border-radius: 500px !important;
   height: 30px !important;
 }
+
+.my-score{
+    color: blue;
+}
+
+.all-test-takers-score{
+    color: #b445f5;
+}
+
+.exam-session-year{
+    display: flex;
+    justify-content: center;
+}
+
+.exam-administrator{
+    display: flex;
+    justify-content: center;
+}
