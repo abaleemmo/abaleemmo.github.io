@@ -43,9 +43,15 @@
 .exam-session-year{
     display: flex;
     justify-content: center;
+    font-size: 30px;
 }
 
 .exam-administrator{
     display: flex;
     justify-content: center;
+}
+
+.test-title {
+  font-weight: bold;
+  font-size: 20px;
 }
