@@ -5,7 +5,7 @@
     // APUSH Score
 
     const data = {
-        actual: 1269,
+        actual: 1270,
     projected: 2000,
     limits: [500, 1000, 2500]
     };
@@ -23,7 +23,7 @@
     // Physics 1 Score
 
     const data1 = {
-        actual: 2500,
+        actual: 1295,
     projected: 2000,
     limits: [500, 1000, 2500]
     };
@@ -40,7 +40,7 @@
 
     // Gov Score 
     const data2 = {
-        actual: 2500,
+        actual: 1700,
     projected: 2500,
     limits: [500, 1000, 2500]
     };
@@ -57,7 +57,7 @@
 
     // Lang Score 
     const data3 = {
-        actual: 2500,
+        actual: 1400,
     projected: 2500,
     limits: [500, 1000, 2500]
     };
@@ -74,7 +74,7 @@
 
     // World Score
     const data4 = {
-        actual: 2500,
+        actual: 1555,
     projected: 2500,
     limits: [500, 1000, 2500]
     };
@@ -108,7 +108,7 @@
 
     // Precalc Score
     const data6 = {
-        actual: 1665,
+        actual: 1710,
     projected: 2500,
     limits: [500, 1000, 2500]
     };
@@ -280,7 +280,7 @@
 
      // Physics SL Score 
      const data16 = {
-        actual: 2500,
+        actual: 1500,
     projected: 2500,
     limits: [500, 1000, 2500]
     };
@@ -297,7 +297,7 @@
 
      // Psych SL Score 
      const data17 = {
-        actual: 2500,
+        actual: 1571,
     projected: 2500,
     limits: [500, 1000, 2500]
     };
