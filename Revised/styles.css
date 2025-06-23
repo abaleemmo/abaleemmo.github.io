@@ -7,6 +7,7 @@
   background: blue;
   position: relative;
 }
+
 .progress-bar.bg-projected:before {
   width: 30px;
   height: 30px;
@@ -31,9 +32,13 @@
     color: blue;
 }
 
-.all-test-takers-score{
+.all-test-takers-score a{
     color: #b445f5;
 }
+.all-test-takers-score{
+  color: #b445f5;
+}
+
 
 .exam-session-year{
     display: flex;

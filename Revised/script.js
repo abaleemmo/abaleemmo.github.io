@@ -41,7 +41,7 @@
     // Gov Score 
     const data2 = {
         actual: 2500,
-    projected: 2000,
+    projected: 2500,
     limits: [500, 1000, 2500]
     };
 
@@ -58,7 +58,7 @@
     // Lang Score 
     const data3 = {
         actual: 2500,
-    projected: 2000,
+    projected: 2500,
     limits: [500, 1000, 2500]
     };
 
@@ -75,7 +75,7 @@
     // World Score
     const data4 = {
         actual: 2500,
-    projected: 2000,
+    projected: 2500,
     limits: [500, 1000, 2500]
     };
 
@@ -91,7 +91,7 @@
 
     // Seminar Score 
     const data5 = {
-        actual: 2500,
+        actual: 1600,
     projected: 2000,
     limits: [500, 1000, 2500]
     };
@@ -108,8 +108,8 @@
 
     // Precalc Score
     const data6 = {
-        actual: 2500,
-    projected: 2000,
+        actual: 1665,
+    projected: 2500,
     limits: [500, 1000, 2500]
     };
 
@@ -125,8 +125,8 @@
 
     // Micro Score 
     const data7 = {
-        actual: 2500,
-    projected: 2000,
+        actual: 1620,
+    projected: 1500,
     limits: [500, 1000, 2500]
     };
 
@@ -142,7 +142,7 @@
 
     // Macro Score 
     const data8 = {
-        actual: 2500,
+        actual: 1565,
     projected: 2000,
     limits: [500, 1000, 2500]
     };
@@ -159,8 +159,8 @@
 
     // Lit Score 
     const data9 = {
-        actual: 2500,
-    projected: 2000,
+        actual: 1580,
+    projected: 2500,
     limits: [500, 1000, 2500]
     };
 
@@ -176,8 +176,8 @@
 
     // Calc AB Score 
     const data10 = {
-        actual: 2500,
-    projected: 2000,
+        actual: 1610,
+    projected: 2500,
     limits: [500, 1000, 2500]
     };
 
@@ -193,8 +193,8 @@
 
     // Calc BC Score 
     const data11 = {
-        actual: 2500,
-    projected: 2000,
+        actual: 1950,
+    projected: 2500,
     limits: [500, 1000, 2500]
     };
 
@@ -210,7 +210,7 @@
 
     // Spanish Score 
      const data12 = {
-        actual: 2500,
+        actual: 1770,
     projected: 2000,
     limits: [500, 1000, 2500]
     };
@@ -227,8 +227,8 @@
 
     // Physics 2 Score 
      const data13 = {
-        actual: 2500,
-    projected: 2000,
+        actual: 1600,
+    projected: 2500,
     limits: [500, 1000, 2500]
     };
 
@@ -244,8 +244,8 @@
 
     // Research Score 
      const data14 = {
-        actual: 2500,
-    projected: 2000,
+        actual: 1675,
+    projected: 2500,
     limits: [500, 1000, 2500]
     };
 
@@ -261,8 +261,8 @@
 
     // Chem Score 
      const data15 = {
-        actual: 2500,
-    projected: 2000,
+        actual: 1655,
+    projected: 2500,
     limits: [500, 1000, 2500]
     };
 
@@ -275,3 +275,246 @@
 
     actualProgress15.style.width = `${actualPercentage15}%`;
     projectedProgress15.style.width = `${projectedPercentage15}%`;
+
+// IB Scores
+
+     // Physics SL Score 
+     const data16 = {
+        actual: 2500,
+    projected: 2500,
+    limits: [500, 1000, 2500]
+    };
+
+    const actualProgress16 = document.getElementById("actual-progress16");
+    const projectedProgress16 = document.getElementById("projected-progress16");
+
+    const barLength16 = Math.max(...data16.limits);
+    const actualPercentage16 = (data16.actual / barLength16) * 100;
+    const projectedPercentage16 = ((data16.projected - data16.actual) / barLength16) * 100;
+
+    actualProgress16.style.width = `${actualPercentage16}%`;
+    projectedProgress16.style.width = `${projectedPercentage16}%`;
+
+     // Psych SL Score 
+     const data17 = {
+        actual: 2500,
+    projected: 2500,
+    limits: [500, 1000, 2500]
+    };
+
+    const actualProgress17 = document.getElementById("actual-progress17");
+    const projectedProgress17 = document.getElementById("projected-progress17");
+
+    const barLength17 = Math.max(...data17.limits);
+    const actualPercentage17 = (data17.actual / barLength17) * 100;
+    const projectedPercentage17 = ((data17.projected - data17.actual) / barLength17) * 100;
+
+    actualProgress17.style.width = `${actualPercentage17}%`;
+    projectedProgress17.style.width = `${projectedPercentage17}%`;
+
+// College Readiness Assessment Scores 
+
+    // PSAT overall 
+        const data18 = {
+        actual: 1535,
+    projected: 2467,
+    limits: [500, 1000, 2500]
+    };
+
+    const actualProgress18 = document.getElementById("actual-progress18");
+    const projectedProgress18 = document.getElementById("projected-progress18");
+
+    const barLength18 = Math.max(...data18.limits);
+    const actualPercentage18 = (data18.actual / barLength18) * 100;
+    const projectedPercentage18 = ((data18.projected - data18.actual) / barLength18) * 100;
+
+    actualProgress18.style.width = `${actualPercentage18}%`;
+    projectedProgress18.style.width = `${projectedPercentage18}%`;
+
+    // PSAT Math 
+        const data19 = {
+        actual: 1520,
+    projected: 2500,
+    limits: [500, 1000, 2500]
+    };
+
+    const actualProgress19 = document.getElementById("actual-progress19");
+    const projectedProgress19 = document.getElementById("projected-progress19");
+
+    const barLength19 = Math.max(...data19.limits);
+    const actualPercentage19 = (data19.actual / barLength19) * 100;
+    const projectedPercentage19 = ((data19.projected - data19.actual) / barLength19) * 100;
+
+    actualProgress19.style.width = `${actualPercentage19}%`;
+    projectedProgress19.style.width = `${projectedPercentage19}%`;
+
+    // PSAT Reading 
+        const data20 = {
+        actual: 1546,
+    projected: 2434,
+    limits: [500, 1000, 2500]
+    };
+
+    const actualProgress20 = document.getElementById("actual-progress20");
+    const projectedProgress20 = document.getElementById("projected-progress20");
+
+    const barLength20 = Math.max(...data20.limits);
+    const actualPercentage20 = (data20.actual / barLength20) * 100;
+    const projectedPercentage20 = ((data20.projected - data20.actual) / barLength20) * 100;
+
+    actualProgress20.style.width = `${actualPercentage20}%`;
+    projectedProgress20.style.width = `${projectedPercentage20}%`;
+
+    // SAT overall
+        const data21 = {
+        actual: 1600,
+    projected: 2359,
+    limits: [500, 1000, 2500]
+    };
+
+    const actualProgress21 = document.getElementById("actual-progress21");
+    const projectedProgress21 = document.getElementById("projected-progress21");
+
+    const barLength21 = Math.max(...data21.limits);
+    const actualPercentage21 = (data21.actual / barLength21) * 100;
+    const projectedPercentage21 = ((data21.projected - data21.actual) / barLength21) * 100;
+
+    actualProgress21.style.width = `${actualPercentage21}%`;
+    projectedProgress21.style.width = `${projectedPercentage21}%`;
+
+    // SAT Math
+        const data22 = {
+        actual: 1578,
+    projected: 2406,
+    limits: [500, 1000, 2500]
+    };
+
+    const actualProgress22 = document.getElementById("actual-progress22");
+    const projectedProgress22 = document.getElementById("projected-progress22");
+
+    const barLength22 = Math.max(...data22.limits);
+    const actualPercentage22 = (data22.actual / barLength22) * 100;
+    const projectedPercentage22 = ((data22.projected - data22.actual) / barLength22) * 100;
+
+    actualProgress22.style.width = `${actualPercentage22}%`;
+    projectedProgress22.style.width = `${projectedPercentage22}%`;
+    
+    // SAT Reading 
+        const data23 = {
+        actual: 1622,
+    projected: 2313,
+    limits: [500, 1000, 2500]
+    };
+
+    const actualProgress23 = document.getElementById("actual-progress23");
+    const projectedProgress23 = document.getElementById("projected-progress23");
+
+    const barLength23 = Math.max(...data23.limits);
+    const actualPercentage23 = (data23.actual / barLength23) * 100;
+    const projectedPercentage23 = ((data23.projected - data23.actual) / barLength23) * 100;
+
+    actualProgress23.style.width = `${actualPercentage23}%`;
+    projectedProgress23.style.width = `${projectedPercentage23}%`;
+
+    // ACT overall 
+        const data24 = {
+        actual: 1361,
+    projected: 2000,
+    limits: [500, 1000, 2500]
+    };
+
+    const actualProgress24 = document.getElementById("actual-progress24");
+    const projectedProgress24 = document.getElementById("projected-progress24");
+
+    const barLength24 = Math.max(...data24.limits);
+    const actualPercentage24 = (data24.actual / barLength24) * 100;
+    const projectedPercentage24 = ((data24.projected - data24.actual) / barLength24) * 100;
+
+    actualProgress24.style.width = `${actualPercentage24}%`;
+    projectedProgress24.style.width = `${projectedPercentage24}%`;
+
+    // ACT Math 
+        const data25 = {
+        actual: 1326,
+    projected: 2431,
+    limits: [500, 1000, 2500]
+    };
+
+    const actualProgress25 = document.getElementById("actual-progress25");
+    const projectedProgress25 = document.getElementById("projected-progress25");
+
+    const barLength25 = Math.max(...data25.limits);
+    const actualPercentage25 = (data25.actual / barLength25) * 100;
+    const projectedPercentage25 = ((data25.projected - data25.actual) / barLength25) * 100;
+
+    actualProgress25.style.width = `${actualPercentage25}%`;
+    projectedProgress25.style.width = `${projectedPercentage25}%`;
+
+    // ACT Reading
+        const data26 = {
+        actual: 1403,
+    projected: 2431,
+    limits: [500, 1000, 2500]
+    };
+
+    const actualProgress26 = document.getElementById("actual-progress26");
+    const projectedProgress26 = document.getElementById("projected-progress26");
+
+    const barLength26 = Math.max(...data26.limits);
+    const actualPercentage26 = (data26.actual / barLength26) * 100;
+    const projectedPercentage26 = ((data26.projected - data26.actual) / barLength26) * 100;
+
+    actualProgress26.style.width = `${actualPercentage26}%`;
+    projectedProgress26.style.width = `${projectedPercentage26}%`;
+
+    // ACT English 
+        const data27 = {
+        actual: 1299,
+    projected: 2431,
+    limits: [500, 1000, 2500]
+    };
+
+    const actualProgress27 = document.getElementById("actual-progress27");
+    const projectedProgress27 = document.getElementById("projected-progress27");
+
+    const barLength27 = Math.max(...data27.limits);
+    const actualPercentage27 = (data27.actual / barLength27) * 100;
+    const projectedPercentage27 = ((data27.projected - data27.actual) / barLength27) * 100;
+
+    actualProgress27.style.width = `${actualPercentage27}%`;
+    projectedProgress27.style.width = `${projectedPercentage27}%`;
+
+    // ACT Science 
+        const data28 = {
+        actual: 1368,
+    projected: 2222,
+    limits: [500, 1000, 2500]
+    };
+
+    const actualProgress28 = document.getElementById("actual-progress28");
+    const projectedProgress28 = document.getElementById("projected-progress28");
+
+    const barLength28 = Math.max(...data28.limits);
+    const actualPercentage28 = (data28.actual / barLength28) * 100;
+    const projectedPercentage28 = ((data28.projected - data28.actual) / barLength28) * 100;
+
+    actualProgress28.style.width = `${actualPercentage28}%`;
+    projectedProgress28.style.width = `${projectedPercentage28}%`;
+
+    // ACT Writing
+     const data29 = {
+        actual: 1271,
+    projected: 2083,
+    limits: [500, 1000, 2500]
+    };
+
+    const actualProgress29 = document.getElementById("actual-progress29");
+    const projectedProgress29 = document.getElementById("projected-progress29");
+
+    const barLength29 = Math.max(...data29.limits);
+    const actualPercentage29 = (data29.actual / barLength29) * 100;
+    const projectedPercentage29 = ((data29.projected - data29.actual) / barLength29) * 100;
+
+    actualProgress29.style.width = `${actualPercentage29}%`;
+    projectedProgress29.style.width = `${projectedPercentage29}%`;
+    
