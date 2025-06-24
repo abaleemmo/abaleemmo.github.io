@@ -517,4 +517,4 @@
 
     actualProgress29.style.width = `${actualPercentage29}%`;
     projectedProgress29.style.width = `${projectedPercentage29}%`;
-
+    
