@@ -163,11 +163,21 @@
 
 .flex-pics {
   display: flex;
-  align-items:stretch;
+  flex-direction:row;
 }
 
 .nm-pic, 
 .rising-stars-pic{
   height: auto;
-  width: fit-content;
+}
+
+.flex-pic-1,
+.flex-pic-2, 
+.flex-pic-caption{
+  padding: 20px;
+}
+
+.flex-pic-caption{
+  display: flex;
+  justify-content: center;
 }
