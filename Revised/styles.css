@@ -34,6 +34,7 @@
 
 .all-test-takers-score a{
     color: #b445f5;
+    text-decoration: underline;
 }
 .all-test-takers-score{
   color: #b445f5;
@@ -104,4 +105,10 @@
 .sig-title, 
 .sig-time{
   margin: 20px;
+}
+
+.d-block {
+  width: auto;
+  display: flex;
+  
 }
