@@ -161,3 +161,13 @@
   display: flex;
 }
 
+.flex-pics {
+  display: flex;
+  align-items:stretch;
+}
+
+.nm-pic, 
+.rising-stars-pic{
+  height: auto;
+  width: fit-content;
+}
