@@ -1,0 +1,42 @@
+.resume-page-title {
+   display: flex;
+   justify-content: center;
+}
+
+.big-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.big-container, 
+.left-side, 
+.right-side{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
+}
+
+.big-container, 
+.right-side{
+    border-color: white;
+}
+
+.left-side{
+    width:60vw;
+    height: auto;
+    margin-right: 10px;
+}
+
+.right-side{
+    width: 40vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.resume {
+    height: auto;
+    width:60vw;
+}

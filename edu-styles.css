@@ -167,7 +167,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  gap: 20px; /* Optional: space between the two pics */
+  padding: 20px;
 }
 
 .flex-pic-1,
@@ -178,6 +178,10 @@
   align-items: center;
   padding: 20px;
   box-sizing: border-box;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  padding: 20px;
 }
 
 .nm-pic,
@@ -189,6 +193,10 @@
   object-fit: cover;
   height: auto;
   display: block;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  padding: 20px;
 }
 
 button{
@@ -212,6 +220,21 @@ button{
 }
 
 iframe {
-  width: 750px;
-  height: 1000px;
+  width: 400px;
+  height: 800px;
+}
+
+.my-experience-at-sig{
+  font-size: 20px;
+}
+
+.sig-box-right-side{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-pic-caption{
+  font-size: 20px;
+  font-weight: bold;
 }
