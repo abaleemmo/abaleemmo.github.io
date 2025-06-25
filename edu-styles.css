@@ -157,27 +157,61 @@
 }
 
 .my-experience-at-sig{
-  margin: 20px;
+  margin: 25px;
   display: flex;
+  flex-direction: column;
 }
 
 .flex-pics {
   display: flex;
-  flex-direction:row;
-}
-
-.nm-pic, 
-.rising-stars-pic{
-  height: auto;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px; /* Optional: space between the two pics */
 }
 
 .flex-pic-1,
-.flex-pic-2, 
-.flex-pic-caption{
+.flex-pic-2 {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
+  box-sizing: border-box;
 }
 
-.flex-pic-caption{
+.nm-pic,
+.rising-stars-pic {
+  width: 100%;
+  /* Remove or increase max-width to allow images to grow */
+  max-width: none;
+  aspect-ratio: 1/1; /* Keeps them square; remove if not needed */
+  object-fit: cover;
+  height: auto;
+  display: block;
+}
+
+button{
   display: flex;
   justify-content: center;
+  align-self: center;
+  width: 200px;
+}
+
+.transcript-popup{
+  position: fixed;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  flex-direction: column;
+  height: fit-content;
+  width: fit-content;
+  z-index: 1;
+}
+
+iframe {
+  width: 750px;
+  height: 1000px;
 }

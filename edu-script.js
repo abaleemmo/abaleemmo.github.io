@@ -517,4 +517,18 @@
 
     actualProgress29.style.width = `${actualPercentage29}%`;
     projectedProgress29.style.width = `${projectedPercentage29}%`;
+
+// buttons
+    // request transcript button 
+
+    let transcriptButton = document.querySelector(".transcript-request-button");
+    let transcriptCloseButton = document.querySelector(".close-transcript-popup");
+    let transcriptPopup = document.querySelector(".transcript-popup");
+
+    transcriptButton.addEventListener("click", function(){
+        transcriptPopup.style.display = "flex";
+    });
     
+    transcriptCloseButton.addEventListener("click", function(){
+        transcriptPopup.style.display = "none";
+    });
