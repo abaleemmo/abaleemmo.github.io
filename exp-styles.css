@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-}
+} 
 
 .card{
     border-radius: 5px;
@@ -78,4 +78,41 @@ button{
     justify-content: center;
     font-weight: bold;
     justify-self: top;
+}
+
+.box-for-sides{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box-for-sides, 
+.left-side, 
+.right-side{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.left-carousel-nav-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.left-carousel-nav-buttons button{
+    width: fit-content;
+    margin:10px;
+}
+
+/* delete after making, probably, we'll see how it looks */
+.left-image-carousel, 
+.left-captions {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    margin: 10px;
+    padding: 5px;
 }
