@@ -79,3 +79,8 @@ iframe{
     display: flex;
     justify-content: center;
 }
+
+.yap {
+    font-size: 20px;
+    text-align: center;
+}

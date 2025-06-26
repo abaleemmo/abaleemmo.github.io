@@ -1,0 +1,81 @@
+
+.card-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card{
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    width: fit-content;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-title{
+    font-size: 40px;
+    font-weight: bold
+}
+
+.card-organization{
+    font-size:35px ;
+
+}
+
+.card-time, 
+.card-skills{
+    font-size: 30px;
+}
+
+button{
+    width: 10vw;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.page-title{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
+
+.expanded-card1{
+    position: fixed;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  flex-direction: column;
+  height:45vh ;
+  width: 90vw;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+}
+
+.corner-request-references{
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.exp-card-title{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    justify-self: top;
+}
