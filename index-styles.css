@@ -1,18 +1,87 @@
-/* footer CSS to copy and Paste on every page */
+/* footer CSS to copy and Paste on every page 
 
 .footer {
     position: absolute;
     bottom: 0;
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
+    flex-direction: row;
+    background-color: #efefef;
+    justify-self: baseline;
+    padding: 20px;
 }
+.footer-left{
+    display: flex;
+    align-items: center;
+    left: 0;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+
+}
+
+.footer-left-bio{
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+     border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+.footer-right-bottom{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+     border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+
+}
+
+.footer-right-top{
+     border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+}
+
+.footer-right-contact-form{
+ border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-right-links{
+     border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+    flex-direction: column;
+}
+
 
 .contact-form{
     display: none;
     flex-direction: row;
 }
 
-/* footer CSS to copy and Paste on every page */
+footer CSS to copy and Paste on every page */
+
