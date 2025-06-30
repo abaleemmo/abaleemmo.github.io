@@ -101,35 +101,11 @@ button{
 
 
 
-/* image carousel */
+/* image carousel constant elements*/
 
-.image-carousel-card1 {
-    display: flex;
-    border-radius: 5px;
-    border-style: solid;
-    border-color: black;
-    padding: 5px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.image-carousel-card2{
-    display: none;
-    border-radius: 5px;
-    border-style: solid;
-    border-color: black;
-    padding: 5px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.image-carousel-card3{
-    display: none;
-    border-radius: 5px;
-    border-style: solid;
-    border-color: black;
+.image-carousel-card1, 
+.image-carousel-card2,
+.image-carousel-card3 {
     padding: 5px;
     flex-direction: column;
     justify-content: center;
@@ -151,4 +127,18 @@ button{
     text-align: center;
 }
 
-/* image carousel */
+/* image carousel repeated elements*/
+
+.image-carousel-card1-1 {
+    display: flex;
+}
+
+.image-carousel-card1-2 {
+    display: none;
+}
+
+.image-carousel-card1-3 {
+    display: none;
+}
+
+/* so to repeat it I just have to change the dash, so .image-carousel-card...-# */

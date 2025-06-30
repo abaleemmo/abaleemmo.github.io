@@ -1,33 +1,33 @@
 // image carousel for exp 1
 
 let currentCardNumber = 0;
-let cardChangeButton1 = document.querySelector(".image-carousel-button1");
-let cardChangeButton2 = document.querySelector(".image-carousel-button2");
-let cardChangeButton3 = document.querySelector(".image-carousel-button3");
-let card1 = document.querySelector(".image-carousel-card1");
-let card2 = document.querySelector(".image-carousel-card2");
-let card3 = document.querySelector(".image-carousel-card3");
+let card1ChangeButton1 = document.querySelector(".image-carousel-button1.1");
+let card1ChangeButton2 = document.querySelector(".image-carousel-button1.2");
+let card1ChangeButton3 = document.querySelector(".image-carousel-button1.3");
+let car1d1 = document.querySelector(".image-carousel-card1-1");
+let car1d2 = document.querySelector(".image-carousel-card1-2");
+let car1d3 = document.querySelector(".image-carousel-card1-3");
 
 function cardCheck(){
     if (currentCardNumber === 0) {
-        card1.style.display = "flex";
-        card2.style.display = "none";
-        card3.style.display = "none";
+        car1d1.style.display = "flex";
+        car1d2.style.display = "none";
+        car1d3.style.display = "none";
     }
     if (currentCardNumber === 1) {
-        card1.style.display = "none";
-        card2.style.display = "flex";
-        card3.style.display = "none";
+        car1d1.style.display = "none";
+        car1d2.style.display = "flex";
+        car1d3.style.display = "none";
     }
     if (currentCardNumber === 2) {
-        card1.style.display = "none";
-        card2.style.display = "none";
-        card3.style.display = "flex";
+        car1d1.style.display = "none";
+        car1d2.style.display = "none";
+        car1d3.style.display = "flex";
     }
 }
 
 
-cardChangeButton1.addEventListener("click", function(){
+card1ChangeButton1.addEventListener("click", function(){
     currentCardNumber = currentCardNumber +1;
     if (currentCardNumber >2){   
         // so if you want more cards, just change this condition to desired number of cards -1
@@ -36,7 +36,7 @@ cardChangeButton1.addEventListener("click", function(){
     cardCheck();
 });
 
-cardChangeButton2.addEventListener("click", function(){
+card1ChangeButton2.addEventListener("click", function(){
     currentCardNumber = currentCardNumber +1;
     if (currentCardNumber >2){   
         // so if you want more cards, just change this condition to desired number of cards -1
@@ -45,7 +45,7 @@ cardChangeButton2.addEventListener("click", function(){
     cardCheck();
 });
 
-cardChangeButton3.addEventListener("click", function(){
+card1ChangeButton3.addEventListener("click", function(){
     currentCardNumber = currentCardNumber +1;
     if (currentCardNumber >2){   
         // so if you want more cards, just change this condition to desired number of cards -1
@@ -56,4 +56,8 @@ cardChangeButton3.addEventListener("click", function(){
 
 cardCheck();
 
+// so to do another experience, replace the card names with car#d... and replace the button names with card#ChangeButton... 
+// where # = exp number and ... is just internal card number 
+
 // image carousel for exp 1
+
