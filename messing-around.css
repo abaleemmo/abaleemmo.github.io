@@ -1,0 +1,51 @@
+/* image carousel */
+
+.image-carousel-card1 {
+    display: flex;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-carousel-card2{
+    display: none;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-carousel-card3{
+    display: none;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image-carousel-image image{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    align-items: center;
+}
+
+.image-carousel-caption p{
+    font-size: 20px;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* image carousel */
