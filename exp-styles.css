@@ -10,6 +10,7 @@
     border-color: black;
     border-style: solid;
     width: fit-content;
+    height: fit-content;
     padding: 20px;
     margin: 10px;
     align-items: center;
@@ -84,6 +85,7 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: baseline;
 }
 
 .box-for-sides, 
@@ -96,23 +98,57 @@ button{
     margin: 20px;
 }
 
-.left-carousel-nav-buttons{
+
+
+
+/* image carousel */
+
+.image-carousel-card1 {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.left-carousel-nav-buttons button{
-    width: fit-content;
-    margin:10px;
-}
-
-/* delete after making, probably, we'll see how it looks */
-.left-image-carousel, 
-.left-captions {
     border-radius: 5px;
     border-style: solid;
     border-color: black;
-    margin: 10px;
     padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.image-carousel-card2{
+    display: none;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-carousel-card3{
+    display: none;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image-carousel-image image{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    align-items: center;
+}
+
+.image-carousel-caption p{
+    font-size: 20px;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* image carousel */
