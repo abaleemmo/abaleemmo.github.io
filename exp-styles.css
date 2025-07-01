@@ -135,3 +135,58 @@ button{
 .image-carousel-button-section {
     margin-top: 10px;
 }
+
+.card-skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.html, 
+.fundraising {
+    background-color:#FCEAEA;
+}
+
+.css, 
+.event-planning {
+    background-color:#D6EAF8 ;
+}
+
+.js, 
+.marketing {
+    background-color:#FFEEDB ;
+}
+
+.web-design {
+    background-color:#E8E6F2 ;
+}
+
+.graphic-design {
+    background-color:#E3FCEC ;
+}
+
+
+.public-speaking, 
+.resource-management {
+    background-color:#F5E1F5 ;
+}
+
+.entrepreneurship {
+    background-color:#F5F5F5 ;
+}
+
+.teaching { 
+    background-color: #EAEAFD;
+}
+
+.communication {
+    background-color:#FFFBDD ;
+}
+
+.python, 
+.lead-generation, 
+.design-thinking, 
+.machine-learning, 
+.online-marketplace-management{
+    background-color: #E9F6E3;
+}
