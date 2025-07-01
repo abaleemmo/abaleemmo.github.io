@@ -1,6 +1,6 @@
 // navbar 
 
-let navBarToggleButton = document.querySelector("#nav-bar-circle");
+let navBarToggleButton = document.querySelector(".nav-bar-circle");
 let navBarExpanded = document.querySelector(".nav-bar-row");
 let navbarHidden = true;
 
@@ -10,7 +10,7 @@ let pagesExpanded = document.querySelector(".pages-nav-expanded");
 let contactToggleButton = document.querySelector(".contact-nav-open");
 let contactHidden = true;
 let contactExpanded = document.querySelector(".contact-nav-expanded");
-let audioToggleButton = document.querySelector(".audio-nav-button");
+let audioToggleButton = document.querySelector(".audio-nav-open");
 let audioHidden = true;
 let audioExpanded = document.querySelector(".audio-nav-expanded");
 
@@ -21,6 +21,12 @@ function navBarToggle(){
     if (navbarHidden === true){
         navBarExpanded.style.display = "none";
         lightDarkButton.style.display = "none";
+        pagesHidden = true;
+        contactHidden = true;
+        audioHidden = true;
+        pagesToggle();
+        contactToggle();
+        audioToggle();
     } else if (navbarHidden === false){
         navBarExpanded.style.display = "flex";
         lightDarkButton.style.display = "flex";
@@ -65,7 +71,7 @@ pagesToggleButton.addEventListener("click", function(){
     audioHidden = true;
     pagesToggle();
     contactToggle();
-    audioToggle;
+    audioToggle();
 })
 
 pagesToggleButton.addEventListener("mouseover", function(){
@@ -74,7 +80,7 @@ pagesToggleButton.addEventListener("mouseover", function(){
     audioHidden = true;
     pagesToggle();
     contactToggle();
-    audioToggle;
+    audioToggle();
 })
 
 contactToggleButton.addEventListener("click", function(){
@@ -83,7 +89,7 @@ contactToggleButton.addEventListener("click", function(){
     audioHidden = true;
     pagesToggle();
     contactToggle();
-    audioToggle;
+    audioToggle();
 })
 
 contactToggleButton.addEventListener("mouseover", function(){
@@ -92,7 +98,7 @@ contactToggleButton.addEventListener("mouseover", function(){
     audioHidden = true;
     pagesToggle();
     contactToggle();
-    audioToggle;
+    audioToggle();
 })
 
 audioToggleButton.addEventListener("click", function(){
@@ -101,7 +107,7 @@ audioToggleButton.addEventListener("click", function(){
     audioHidden = !audioHidden;
     pagesToggle();
     contactToggle();
-    audioToggle;
+    audioToggle();
 })
 
 audioToggleButton.addEventListener("mouseover", function(){
@@ -110,7 +116,7 @@ audioToggleButton.addEventListener("mouseover", function(){
     audioHidden = !audioHidden;
     pagesToggle();
     contactToggle();
-    audioToggle;
+    audioToggle();
 })
 
 // navbar
