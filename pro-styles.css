@@ -1,0 +1,137 @@
+
+.card-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+} 
+
+.card{
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-title{
+    font-size: 40px;
+    font-weight: bold
+}
+
+.card-organization{
+    font-size:35px ;
+
+}
+
+.card-time{
+    font-size: 30px;
+}
+
+.card-skills{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.skill{
+    padding: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+button{
+    width: 10vw;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.page-title{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
+
+.expanded-card{
+    position: fixed;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  flex-direction: column;
+  height:45vh ;
+  width: 90vw;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+}
+
+.corner-request-references{
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.exp-card-title{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    justify-self: top;
+}
+
+.box-for-sides{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.box-for-sides, 
+.left-side, 
+.right-side{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.image-carousel-card {
+    display: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-carousel-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.image-carousel-caption p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.image-carousel-button-section {
+    margin-top: 10px;
+}

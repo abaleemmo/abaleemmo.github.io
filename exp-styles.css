@@ -58,7 +58,7 @@ button{
     justify-content: center;
 }
 
-.expanded-card1{
+.expanded-card{
     position: fixed;
   display: none;
   top: 50%;
@@ -111,10 +111,6 @@ button{
     margin: 20px;
 }
 
-
-
-
-/* image carousel constant elements*/
 .image-carousel-card {
     display: none;
     border-radius: 5px;
