@@ -28,9 +28,22 @@
 
 }
 
-.card-time, 
-.card-skills{
+.card-time{
     font-size: 30px;
+}
+
+.card-skills{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.skill{
+    padding: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
 }
 
 button{
@@ -47,7 +60,7 @@ button{
 
 .expanded-card1{
     position: fixed;
-  display: flex;
+  display: none;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
