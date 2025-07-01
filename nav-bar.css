@@ -13,7 +13,7 @@
     height: 100px;
     bottom: 20px;
     right: 20px;
-    z-index: 1000;
+    z-index: 10;
     font-weight: bold;
     font-size: 30px;
 }
@@ -71,7 +71,7 @@
     border-color: black;
     border-radius: 5px;
     padding: 20px;
-    right: 20px;
+    right: 10px;
     bottom: 120px;
     display: none;
     margin: 10px;
