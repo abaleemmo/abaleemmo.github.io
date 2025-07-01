@@ -1,87 +1,73 @@
-/* footer CSS to copy and Paste on every page 
+/* nav bar */
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    flex-direction: row;
-    background-color: #efefef;
-    justify-self: baseline;
-    padding: 20px;
-}
-.footer-left{
-    display: flex;
-    align-items: center;
-    left: 0;
-    border-radius: 5px;
-    border-color: black;
+.nav-bar-circle{
+    position: fixed;         
     border-style: solid;
-    padding: 20px;
-
-}
-
-.footer-left-bio{
-    border-radius: 5px;
+    border-radius: 50%;
     border-color: black;
-    border-style: solid;
-    padding: 20px;
-}
-
-.footer-left{
-    display: flex;
-    flex-direction: column;;
-}
-
-.footer-right{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-     border-radius: 5px;
-    border-color: black;
-    border-style: solid;
-}
-
-.footer-right-bottom{
-    display: flex;
     justify-content: center;
-    flex-direction: row;
-     border-radius: 5px;
-    border-color: black;
-    border-style: solid;
-    padding: 20px;
-
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
 }
 
-.footer-right-top{
-     border-radius: 5px;
-    border-color: black;
+
+.nav-bar-row{
+    display: none;
+    justify-content: center;
+    align-self: baseline;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 25%;
     border-style: solid;
+    border-color: black;
+    border-radius: 5px;
     padding: 20px;
 }
 
-.footer-right-contact-form{
- border-radius: 5px;
-    border-color: black;
-    border-style: solid;
-    padding: 20px;
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    bottom: 20px;
+    position: fixed;
+}
+
+.nav-bar-lower{
     display: flex;
     flex-direction: row;
 }
 
-.footer-right-links{
-     border-radius: 5px;
-    border-color: black;
-    border-style: solid;
-    padding: 20px;
-    flex-direction: column;
+.nav-bar-upper{
+    position: fixed;
+    bottom: 200px;
+    right: 500px;
 }
 
-
-.contact-form{
+.pages-nav-expanded, 
+.contact-nav-expanded, 
+.audio-nav-expanded{
     display: none;
-    flex-direction: row;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    padding: 20px;
 }
 
-footer CSS to copy and Paste on every page */
+.light-dark-switch{
+    position: fixed;
+    border-radius: 5px;
+    border-color: black;
+    border-radius: 5px;
+    padding: 20px;
+    right: 20px;
+    display: none;
+}
 
+
+/* nav bar */
