@@ -39,6 +39,8 @@
     flex-direction: column;
     bottom: 20px;
     position: fixed;
+    background-color: white;
+    z-index: 10000;
 }
 
 .nav-bar-lower{

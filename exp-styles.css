@@ -9,8 +9,8 @@
     border-radius: 5px;
     border-color: black;
     border-style: solid;
-    width: fit-content;
-    height: fit-content;
+    width: 25vw;
+    height: 40vh;
     padding: 20px;
     margin: 10px;
     align-items: center;
@@ -33,7 +33,7 @@
 }
 
 .card-skills{
-    display: flex;
+  display: flex;
     flex-direction: row;
     align-items: baseline;
     justify-content: center;
