@@ -90,3 +90,12 @@ iframe{
   font-weight: 400;
   font-style: normal;
 }
+
+.resume-page-title {
+    font-family: "UoqMunThenKhung";
+    font-weight: bold;
+}
+
+p {
+    font-family: monospace;
+}

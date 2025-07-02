@@ -223,3 +223,15 @@ img {
   font-weight: 400;
   font-style: normal;
 }
+
+.page-title, 
+.card-title {
+    font-family: "UoqMunThenKhung";
+}
+
+.skill, 
+.image-carousel-caption, 
+.corner-request-references, 
+.right-top {
+    font-family: monospace;
+}

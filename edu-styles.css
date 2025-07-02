@@ -244,3 +244,19 @@ iframe {
   font-weight: 400;
   font-style: normal;
 }
+
+
+.education-title, 
+.sig-title {
+  font-family: "UoqMunThenKhung";
+  font-weight: bold;
+}
+
+.sig-time, 
+.sig-box-right-side, 
+.sig-time-title, 
+.transcript-request-button, 
+.flex-pic-caption, 
+.accordion {
+  font-family: monospace;
+}
