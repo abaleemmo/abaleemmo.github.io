@@ -27,17 +27,17 @@ body {
   font-size: 15vh;
   justify-content: center;
   text-align: center;
-  color: #ce2d4f;
+  color: black;
   text-shadow:
-    -1px -1px 0 black,
-     1px -1px 0 black,
-    -1px  1px 0 black,
-     1px  1px 0 black;
+    -1px -1px 0 white,
+     1px -1px 0 white,
+    -1px  1px 0 white,
+     1px  1px 0 white;
 }
 
 
 .name2 {
-  color: #ce2d4f;
+  color: black;
 }
 
 .big-box {
