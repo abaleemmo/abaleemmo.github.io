@@ -11,8 +11,15 @@ h1 {
 .page-title, 
 .section-title {
   font-family: "UoqMunThenKhung";
+  color: #2F1847;
 }
 
 p {
   font-family: monospace;
+  color: black;
+}
+
+body {
+  background-color: #CFDEE7;
+
 }

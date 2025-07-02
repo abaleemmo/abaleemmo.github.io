@@ -200,6 +200,7 @@ iframe {
 .exp-card-title{
     font-family: "UoqMunThenKhung", sans-serif;
     font-weight: bold;
+    color: #2f1847;
     
 }
 
@@ -213,6 +214,7 @@ iframe {
 .skill, 
 .right-top {
     font-family: monospace;
+    color: black;
 }
 
 .left-side iframe {
@@ -220,4 +222,19 @@ iframe {
     height: 100%;
     border: none;
     display: block;
+}
+
+body, 
+.expanded-card {
+    background-color: #cfdee7;
+}
+
+button {
+    background-color: #ce2d4f;
+    color: white;
+}
+
+.expanded-card button{
+    background-color:#3c787E ;
+    color: white;
 }

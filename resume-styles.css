@@ -51,13 +51,12 @@
     background-color: #efefef;
 }
 
-.download-button a{
-    text-emphasis-color: black;
-    color: black;
+.download-button a {
+    color: white;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13.3px;
 }
+
+
 
 .references-form{
     padding: 10px;
@@ -94,8 +93,23 @@ iframe{
 .resume-page-title {
     font-family: "UoqMunThenKhung";
     font-weight: bold;
+    color: #2F1847;
 }
 
 p {
     font-family: monospace;
+    color: black;
+}
+
+.request-references-button, 
+.download-button {
+    background-color: #Ce2d4f;
+    color: white;
+    font-family: monospace;
+    border-radius: 5px;
+
+}
+
+body {
+    background-color:#Cfdee7 ;
 }

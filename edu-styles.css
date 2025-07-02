@@ -1,3 +1,7 @@
+* {
+  background: #CFDEE7;
+}
+
 .progress-bar.bg-actual {
   background: #b445f5;
   border-radius: 0;
@@ -247,9 +251,11 @@ iframe {
 
 
 .education-title, 
-.sig-title {
+.sig-title, 
+.exam-session-year {
   font-family: "UoqMunThenKhung";
   font-weight: bold;
+  color: #2f1847;
 }
 
 .sig-time, 
@@ -259,4 +265,20 @@ iframe {
 .flex-pic-caption, 
 .accordion {
   font-family: monospace;
+  color: black;
 }
+
+
+
+
+
+.transcript-request-button {
+  background-color:#ce2d4f;
+  color: white;
+}
+
+body,
+ .big-sig-box {
+  background-color: #CFDEE7;
+}
+
