@@ -107,7 +107,14 @@ p {
     color: white;
     font-family: monospace;
     border-radius: 5px;
+    width: 10vw;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
 
+.download-button {
+    text-align: center;
 }
 
 body {

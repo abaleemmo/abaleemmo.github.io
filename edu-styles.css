@@ -1,6 +1,6 @@
-* {
+/* * {
   background: #CFDEE7;
-}
+} */
 
 .progress-bar.bg-actual {
   background: #b445f5;
@@ -282,3 +282,30 @@ body,
   background-color: #CFDEE7;
 }
 
+.nav-bar {
+  background-color: #ee8434 !important;
+}
+
+.my-experience-at-sig {
+  background-color: #CFDEE7;
+}
+
+.flex-pics {
+  background-color: #CFDEE7;
+}
+
+.sig-title {
+  background-color: #CFDEE7;
+}
+
+.sig-time {
+  background-color: #CFDEE7;
+}
+
+.education-title {
+  background-color: #CFDEE7;
+}
+
+body {
+  background-color: #CFDEE7 !important;
+}

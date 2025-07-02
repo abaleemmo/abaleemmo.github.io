@@ -238,3 +238,7 @@ button {
     background-color:#3c787E ;
     color: white;
 }
+
+.right-top p{
+  font-size: clamp(1rem, 2vh, 10vh);
+}
