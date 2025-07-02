@@ -13,6 +13,7 @@
 p {
   font-family: monospace;
   color: black;
+  font-size: 2vh;
 }
 
 body {
@@ -42,21 +43,35 @@ body {
 .big-box {
   display: flex;
   flex-direction: row;
+  height: 50vh;
 }
 
 .box-left-side {
-  width: 50%;
+  width: 33%;
 }
 .box-left-side img {
-  width: 50%;
-  height: auto;
+  width: 100%;
 }
 
+
 .box-right-side {
-  width: 50%;
+  width: 33%;
+  align-items: center;
+  justify-content: center;
+}
+.box-right-right-side{
+  width: 25%;
+  
+
 }
 
 .adjectives {
   text-align: center;
-  font-size: 8vh;
+  align-self: baseline;
+  font-size: 6vh;
+}
+
+.name {
+  height: 50vh;
+  width: auto;
 }
