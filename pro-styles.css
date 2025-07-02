@@ -1,4 +1,3 @@
-
 .card-row {
     display: flex;
     justify-content: center;
@@ -197,7 +196,10 @@ iframe {
 }
 
 .card-title, 
-.page-title{
+.page-title, 
+.exp-card-title{
+    font-family: "UoqMunThenKhung", sans-serif;
+    font-weight: bold;
     
 }
 
@@ -207,3 +209,15 @@ iframe {
   font-style: normal;
 }
 
+.card-skills, 
+.skill, 
+.right-top {
+    font-family: monospace;
+}
+
+.left-side iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
