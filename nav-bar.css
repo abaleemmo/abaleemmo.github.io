@@ -97,5 +97,25 @@ iframe {
   font-style: normal;
 }
 
+.nav-bar a, 
+.nav-bar p{
+    color: white; 
+}
+
+.nav-bar-upper, 
+.nav-bar-lower, 
+.nav-bar-row {
+    background-color: #ee8434; ;
+}
+
+.nav-bar-circle, 
+.nav-bar button {
+    color: white;
+    background-color: #ce2d4f;
+}
+
+
+
 
 /* nav bar */
+

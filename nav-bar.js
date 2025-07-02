@@ -14,13 +14,11 @@ let audioToggleButton = document.querySelector(".audio-nav-open");
 let audioHidden = true;
 let audioExpanded = document.querySelector(".audio-nav-expanded");
 
-let lightDarkButton = document.querySelector(".light-dark-switch");
 
 // getting the nav bar circle to show the nav bar row 
 function navBarToggle(){
     if (navbarHidden === true){
         navBarExpanded.style.display = "none";
-        lightDarkButton.style.display = "none";
         pagesHidden = true;
         contactHidden = true;
         audioHidden = true;
@@ -29,7 +27,6 @@ function navBarToggle(){
         audioToggle();
     } else if (navbarHidden === false){
         navBarExpanded.style.display = "flex";
-        lightDarkButton.style.display = "flex";
     }
 };
 
