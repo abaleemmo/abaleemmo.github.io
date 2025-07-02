@@ -19,3 +19,44 @@ body {
   background-color: #CFDEE7;
 
 }
+
+.name1, 
+.name2 {
+  font-weight: bold;
+  font-size: 15vh;
+  justify-content: center;
+  text-align: center;
+  color: #ce2d4f;
+  text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+
+
+.name2 {
+  color: #ce2d4f;
+}
+
+.big-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.box-left-side {
+  width: 50%;
+}
+.box-left-side img {
+  width: 50%;
+  height: auto;
+}
+
+.box-right-side {
+  width: 50%;
+}
+
+.adjectives {
+  text-align: center;
+  font-size: 8vh;
+}
